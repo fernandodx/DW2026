@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aprenda com os melhores cursos online de tecnologia, marketing e design. Invista em sua carreira com aulas práticas e mentoria focada."
+    />
+    <title>Academia Nova Era | Cursos para evoluir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Academia Nova Era">
+          <span class="brand-mark">A</span>
+          <span>Academia Nova Era</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#cursos">Cursos</a>
+          <a href="#metodologia">Metodologia</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <a href="#cursos" class="btn btn-primary nav-cta">Começar agora</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Transforme sua carreira</span>
+            <h1>Aprenda habilidades que abrem portas reais no mercado.</h1>
+            <p>
+              Cursos práticos de tecnologia, design e marketing para você acelerar sua
+              evolução com mentoria, desafios reais e suporte de especialistas.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#cursos" class="btn btn-primary">Ver cursos</a>
+              <a href="#metodologia" class="btn btn-secondary">Como funciona</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Estatísticas da academia">
+              <li><strong>15k+</strong><span>alunos</span></li>
+              <li><strong>4.9/5</strong><span>avaliação</span></li>
+              <li><strong>92%</strong><span>employability</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Painel de destaque">
+            <div class="visual-card main-card">
+              <div class="card-topline">
+                <span class="status-dot"></span>
+                <span>Bootcamp em andamento</span>
+              </div>
+              <div class="card-figure">
+                <div class="ring ring-one"></div>
+                <div class="ring ring-two"></div>
+                <div class="circle-graph">
+                  <span>+48%</span>
+                </div>
+              </div>
+              <div class="card-info">
+                <div>
+                  <small>Tempo de estudo</small>
+                  <strong>9h/semana</strong>
+                </div>
+                <div class="trend up">+18%</div>
+              </div>
+            </div>
+
+            <div class="visual-card floating-card card-one">
+              <span class="mini-label">Desenvolvimento</span>
+              <strong>Full Stack</strong>
+              <small>8 semanas</small>
+            </div>
+
+            <div class="visual-card floating-card card-two">
+              <span class="mini-label">UX/UI</span>
+              <strong>Design de Produto</strong>
+              <small>6 semanas</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands section-sm">
+        <div class="container brand-strip" aria-label="Empresas que confiam na aprendizagem">
+          <span>GitHub</span>
+          <span>Google</span>
+          <span>Microsoft</span>
+          <span>Netflix</span>
+          <span>Stripe</span>
+        </div>
+      </section>
+
+      <section class="features section" id="metodologia">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">Nossa metodologia</span>
+            <h2>Aprendizado que conecta teoria, prática e resultados.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-item">
+              <div class="icon-box gradient-purple">01</div>
+              <h3>Mentoria especialista</h3>
+              <p>Receba feedback de profissionais que atuam no mercado e evolua com orientações reais.</p>
+            </article>
+
+            <article class="feature-item">
+              <div class="icon-box gradient-blue">02</div>
+              <h3>Projetos reais</h3>
+              <p>Construa portfólio com desafios sobre casos reais, em vez de apenas assistir vídeos.</p>
+            </article>
+
+            <article class="feature-item">
+              <div class="icon-box gradient-pink">03</div>
+              <h3>Comunidade ativa</h3>
+              <p>Conecte-se com colegas, troque ideias e receba apoio para continuar evoluindo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog section" id="cursos">
+        <div class="container">
+          <div class="section-header split">
+            <div>
+              <span class="eyebrow">Cursos e trilhas</span>
+              <h2>Escolha a trilha que vai acelerar o seu próximo passo.</h2>
+            </div>
+
+            <div class="filter-list" aria-label="Filtros de categoria">
+              <button class="filter-btn active" data-filter="all">Todos</button>
+              <button class="filter-btn" data-filter="frontend">Frontend</button>
+              <button class="filter-btn" data-filter="backend">Backend</button>
+              <button class="filter-btn" data-filter="design">Design</button>
+              <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+          </div>
+
+          <div class="catalog-layout">
+            <div class="course-grid" id="courseGrid" aria-live="polite"></div>
+
+            <aside class="checkout-panel" aria-label="Resumo do pedido">
+              <div class="panel-head">
+                <h3>Resumo do pedido</h3>
+                <span class="items-count" id="itemsCount">0 cursos</span>
+              </div>
+
+              <div class="checkout-list" id="checkoutList">
+                <p class="empty-state">Nenhum curso selecionado ainda.</p>
+              </div>
+
+              <div class="checkout-summary">
+                <div class="row">
+                  <span>Subtotal</span>
+                  <strong id="subtotal">R$ 0,00</strong>
+                </div>
+                <div class="row">
+                  <span>Desconto</span>
+                  <strong id="discount">- R$ 0,00</strong>
+                </div>
+                <div class="row total">
+                  <span>Total</span>
+                  <strong id="total">R$ 0,00</strong>
+                </div>
+              </div>
+
+              <button class="btn btn-primary btn-block" id="checkoutBtn">Finalizar matrícula</button>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="manage section-sm" aria-labelledby="adminCursosTitle">
+        <div class="container admin-panel">
+          <div class="section-header split">
+            <div>
+              <span class="eyebrow">Gerencie a grade</span>
+              <h2 id="adminCursosTitle">Adicione ou remova cursos rapidamente.</h2>
+            </div>
+          </div>
+
+          <div class="admin-grid">
+            <form id="courseForm" class="course-form" novalidate>
+              <div class="form-row two-col">
+                <label>
+                  <span>Nome do curso</span>
+                  <input type="text" name="title" placeholder="Ex: JavaScript moderno" required />
+                </label>
+
+                <label>
+                  <span>Categoria</span>
+                  <select name="category" required>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="design">Design</option>
+                    <option value="marketing">Marketing</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="form-row two-col">
+                <label>
+                  <span>Preço</span>
+                  <input type="number" name="price" min="1" step="1" placeholder="149" required />
+                </label>
+
+                <label>
+                  <span>Preço de lista</span>
+                  <input type="number" name="oldPrice" min="1" step="1" placeholder="219" />
+                </label>
+              </div>
+
+              <div class="form-row two-col">
+                <label>
+                  <span>Duração</span>
+                  <input type="text" name="duration" placeholder="6 semanas" required />
+                </label>
+
+                <label>
+                  <span>Aulas</span>
+                  <input type="text" name="lessons" placeholder="24 aulas" required />
+                </label>
+              </div>
+
+              <label>
+                <span>Descrição</span>
+                <textarea name="description" rows="4" placeholder="Escreva uma descrição curta e atrativa do curso..." required></textarea>
+              </label>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Salvar curso</button>
+                <button type="button" class="btn btn-secondary" id="resetDefaultCourses">Restaurar padrão</button>
+              </div>
+            </form>
+
+            <aside class="admin-side">
+              <div class="mini-stat">
+                <span>Cursos ativos</span>
+                <strong id="activeCoursesCount">0</strong>
+              </div>
+              <div class="mini-stat">
+                <span>Seleção atual</span>
+                <strong id="selectedCoursesCount">0</strong>
+              </div>
+              <p>
+                Crie novos cursos, edite a grade e remova itens quando quiser. Tudo fica salvo no navegador.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="results section">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">Resultados reais</span>
+            <h2>Milhares de pessoas já transformaram sua carreira.</h2>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <strong>78%</strong>
+              <span>dos alunos receberam promoção em até 6 meses.</span>
+            </div>
+            <div class="metric-card">
+              <strong>3.4x</strong>
+              <span>mais oportunidades de entrevistas após a conclusão.</span>
+            </div>
+            <div class="metric-card">
+              <strong>1:1</strong>
+              <span>mentoria individual para acompanhar sua evolução.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section" id="depoimentos">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">Depoimentos</span>
+            <h2>O que nossos alunos dizem sobre a jornada.</h2>
+          </div>
+
+          <div class="testimonial-slider" aria-live="polite">
+            <article class="testimonial active">
+              <p>
+                “A plataforma foi muito além do que eu esperava. Aprendi com projetos reais e agora consigo
+                entregar produtos de alto nível para clientes.”
+              </p>
+              <div class="person">
+                <strong>Larissa M.</strong>
+                <span>UX/UI Designer</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <p>
+                “Os cursos são bem estruturados e muito objetivos. Eu troquei de área para tecnologia e consegui
+                uma vaga em 3 meses.”
+              </p>
+              <div class="person">
+                <strong>Rafael S.</strong>
+                <span>Desenvolvedor Frontend</span>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <p>
+                “A mentoria é o diferencial. Os feedbacks me ajudaram a precisa ter clareza para crescer e tomar
+                decisões melhor.”
+              </p>
+              <div class="person">
+                <strong>Jéssica P.</strong>
+                <span>Especialista em Growth</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="slider-controls" aria-label="Navegação de depoimentos">
+            <button class="slider-dot active" type="button" aria-label="Depoimento 1"></button>
+            <button class="slider-dot" type="button" aria-label="Depoimento 2"></button>
+            <button class="slider-dot" type="button" aria-label="Depoimento 3"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section" id="faq">
+        <div class="container faq-wrap">
+          <div class="section-header faq-header">
+            <span class="eyebrow">Perguntas frequentes</span>
+            <h2>Respostas para dúvidas comuns.</h2>
+          </div>
+
+          <div class="faq-list">
+            <article class="faq-item active">
+              <button class="faq-question" type="button">
+                <span>Os cursos são 100% online?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Sim. Todos os cursos são acessados pela nossa plataforma em qualquer dispositivo e com suporte de mentoria, materiais e desafios.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Posso estudar no meu ritmo?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Sim. Você acompanha o conteúdo em sua própria rotina, com acesso vitalício e materiais complementares para reforçar os estudos.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Há suporte para dúvidas?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Claro. A comunidade e a mentoria ajudam a tirar dúvidas dos módulos, receber feedback e manter ritmo de estudo constante.</p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Posso fazer mais de um curso?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Sim. Você pode montar a sua própria trilha de aprendizagem escolhendo vários cursos e aproveitando desconto por pacote.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section" id="contato">
+        <div class="container cta-panel">
+          <div>
+            <span class="eyebrow">Pronto para começar?</span>
+            <h2>Inscreva-se agora e acelere sua jornada profissional.</h2>
+          </div>
+
+          <form class="lead-form" id="leadForm" novalidate>
+            <label class="sr-only" for="name">Nome</label>
+            <input id="name" name="name" type="text" placeholder="Seu nome" required />
+
+            <label class="sr-only" for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="Seu melhor e-mail" required />
+
+            <button type="submit" class="btn btn-primary">Quero aprender</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">A</span>
+            <span>Academia Nova Era</span>
+          </a>
+        </div>
+
+        <div class="footer-links">
+          <a href="#cursos">Cursos</a>
+          <a href="#metodologia">Metodologia</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <p>© <span id="year"></span> Academia Nova Era. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
