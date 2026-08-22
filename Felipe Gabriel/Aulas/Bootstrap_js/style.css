@@ -1,0 +1,10 @@
+.hero {
+    background-color: lightcyan;
+}
+.hero-card{
+    min-height: 280px;
+}
+
+.curse-card :hover{
+    transform: translate(-4px);
+}

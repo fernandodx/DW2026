@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(59, 176, 230);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 26)
+}
+
+header{
+    padding: 24px;
+    
+}
+nav a {
+    color: rgb(235, 218, 69);
+    margin-right: 16px;
+}
+main {
+    max-width: 900px;
+    margin: 32px;
+    padding: 0 24px;
+}
+section {
+    margin-bottom: 32px;
+}
+article {
+    padding: 20px;
+    border-radius: 8px;
+}
+.destaque {
+    color: beige;
+    font-weight: bold;
+}
+footer {
+    margin-left:42px ;
+
+}
