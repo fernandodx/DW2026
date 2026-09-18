@@ -1,0 +1,93 @@
+/* ==============================
+CONFIGURAÇÕES GERAIS
+============================== */
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+background-color: #f8f9fa;
+}
+
+/* ==============================
+CABEÇALHO
+============================== */
+
+header {
+background-color: #ffffff;
+}
+
+header a {
+color: #212529;
+}
+
+header a:hover {
+color: #0d6efd;
+}
+
+/* ==============================
+HERO
+============================== */
+
+.hero {
+min-height: 500px;
+display: flex;
+align-items: center;
+}
+
+.hero-card {
+min-height: 300px;
+}
+
+.hero-card .display-1 {
+font-size: 6rem;
+}
+
+/* ==============================
+CURSOS
+============================== */
+
+#cursos {
+background-color: #ffffff;
+}
+
+/* ==============================
+SOBRE
+============================== */
+
+#sobre {
+background-color: #f8f9fa;
+}
+
+/* ==============================
+RODAPÉ
+============================== */
+
+footer {
+background-color: #ffffff;
+}
+
+/* ==============================
+RESPONSIVIDADE
+============================== */
+
+@media (max-width: 768px) {
+
+```
+.hero {
+    min-height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-card {
+    min-height: 220px;
+}
+
+.hero-card .display-1 {
+    font-size: 4rem;
+}
+```
+
+}
