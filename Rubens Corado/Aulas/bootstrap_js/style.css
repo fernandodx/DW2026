@@ -1,0 +1,12 @@
+.hero{
+    background: lightcyan;
+}
+
+.hero-card{
+    min-height: 200px;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
