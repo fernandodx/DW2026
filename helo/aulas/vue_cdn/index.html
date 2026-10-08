@@ -1,0 +1,27 @@
+<div id="app" class="container py-5">
+  <div class="p-4 bg-light text-center rounded">
+    <h1>{{ mensagem }}</h1>
+
+    <button
+      class="btn btn-primary"
+      @click="contador++">
+      Cliques: {{ contador }}
+    </button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script>
+  const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+        mensagem: 'Minha primeira interface Vue',
+        contador: 0
+      }
+    }
+  }).mount('#app')
+</script>
