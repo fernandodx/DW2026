@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    margin: 0;
+    font-family: 'Gill Sans';
+    color:brown
+}
+
+header {
+    padding: 24px;
+    background-color: rgb(136, 66, 8);
+    color: rgb(80, 40, 3);
+    border: 4px solid rgb(211, 143, 80);
+    
+}
+
+nav a {
+    color:rgb(219, 141, 51);
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 900px;
+    margin: 32px;
+    padding: 0 24px;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+article
+{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(145, 77, 21);
+    color: rgb(46, 32, 10);
+    border: 4px solid rgb(158, 111, 73);
+}
+
+.destaque {
+    color:rgb(241, 171, 79);
+    font-weight: bold;
+}
+
+.lista-cursos{
+    display: flex    ;
+    gap: 16px;
+    justify-content: center;
+    
+}
+
+.curso{
+    flex: 1;
+    border-radius: 100px;
+    padding: 24px;
+    margin: 4px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .lista-cursos{
+         flex-direction: column;
+
+    }
+       
+
+}
