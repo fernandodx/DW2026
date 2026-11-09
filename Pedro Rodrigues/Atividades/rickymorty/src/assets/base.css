@@ -1,0 +1,34 @@
+:root {
+  --bg: #07140a;
+  --bg-card: #0f2114;
+  --bg-soft: #16301c;
+  --border: #1f3d25;
+  --text: #e9eef3;
+  --muted: #8fa894;
+  --portal: #97ce4c;
+  --portal-light: #c6f27e;
+  --alive: #4fd06b;
+  --dead: #ef5a5f;
+  --unknown: #9aa4b1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(1100px 520px at 50% -140px, #97ce4c40, transparent 70%),
+    var(--bg);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
