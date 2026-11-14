@@ -1,10 +1,18 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/pedidos">Pedidos</router-link>
-  </nav>
+  <nav-bar-component />
+  <banner-component />
   <router-view />
 </template>
+
+<script>
+import BannerComponent from "./components/BannerComponent.vue";
+import NavBarComponent from "./components/NavBarComponent.vue";
+
+export default {
+  name: "App",
+  components: { BannerComponent, NavBarComponent },
+};
+</script>
 
 <style>
 #app {
